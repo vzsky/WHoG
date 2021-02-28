@@ -1,11 +1,11 @@
 import { Box, Flex, Text } from '@chakra-ui/react'
-import { events } from '../constants/systems'
+import { events } from '../constants/timeline'
 import { IEvent } from '../interface'
 import Link from 'next/link'
 
 const Event = (event: any) => {
   return (
-    <Link href={"/system/"+event.eventKey}>
+    <Link href={"/system/"+event.id}>
       <Flex justifyContent="center" alignItems="center">
         <Flex justifyContent="center" alignItems="center">
           <Text> {event.year} </Text>
@@ -34,7 +34,7 @@ const Timeline = () => {
         </Flex>
         <Box w="100%" >
           {events.map((event: IEvent, i: number) => (
-              <Event {...event} key={i} eventKey={i}/>
+              <Event {...event} key={i}/>
           ))}
         </Box>
       </Flex>
