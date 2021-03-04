@@ -1,6 +1,7 @@
 export interface IEvent {
   year: number,
+  displayYear?: string,
   title: string,
-  content: string
-  id: string,
+  content: string,
+  type: string | string[],
 }

@@ -1,22 +1,23 @@
 import { Box, Flex, Text } from '@chakra-ui/react'
-import { events } from '../constants/timeline'
+import { events, colors } from '../constants/timeline'
 import { IEvent } from '../interface'
-import Link from 'next/link'
 
 const Event = (event: any) => {
   return (
-    <Link href={"/system/"+event.id}>
+    <Flex justifyContent="center" alignItems="center">
       <Flex justifyContent="center" alignItems="center">
-        <Flex justifyContent="center" alignItems="center">
-          <Text> {event.year} </Text>
-          <Box m={2} w="10px" h="10px" rounded="10px" bg="gray.500"/>
-        </Flex>
-        <Box w="100%" rounded={5} p={5} m={5} bg="blue.100">
+        <Box w={20}>
+          <Text> {event.displayYear?event.displayYear:event.year} </Text>
+        </Box>
+        <Box m={2} w="10px" h="10px" rounded="10px" bg="gray.500"/>
+      </Flex>
+      <Box w="100%" m={5}>
+        <Box p={5} bg={colors[event.type]}>
           <Text fontSize="3xl">{event.title}</Text>
           <Text fontSize="xl">{event.content}</Text>
         </Box>
-      </Flex>
-    </Link>
+      </Box>
+    </Flex>
   )
 }
 

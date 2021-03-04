@@ -1,10 +1,11 @@
 import React from 'react'
-import { Flex } from '@chakra-ui/react'
-import Timeline from '../components/timeline'
+import { Box, Flex } from '@chakra-ui/react'
 
 
-const IndexPage = () => (
-  <Timeline />
+const Page = () => (
+  <Box>
+    Introduction here
+  </Box>
 )
 
-export default IndexPage
+export default Page
