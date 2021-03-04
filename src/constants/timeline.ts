@@ -1,10 +1,10 @@
 import { IEvent } from '../interface'
 
 export const colors = {
-  communism: 'red.100',
-  liberalism: 'blue.100',
-  capitalism: 'green.100',
-  socialism: 'yellow.100',
+  communism: 'red.500',
+  liberalism: 'blue.500',
+  capitalism: 'green.500',
+  socialism: 'yellow.500',
 
 }
 
@@ -47,11 +47,22 @@ export const events : IEvent[] = [
     content: 'Creation of steam engine and automatic systems that allows faster production.',
   },
   {
-    type: ['capitalism', 'liberalism'],
+    type: 'capitalism',
     year: 1759,
     title: 'Invisible hand',
     content: 'The idea of invisible hand, and free market was proposed by the economist Adam Smith in his book, The Theory of Moral Sentiments.',
   },
-  
+  {
+    type: 'liberalism',
+    year: 1759,
+    title: 'Invisible hand',
+    content: 'The idea of invisible hand, and free market was proposed by the economist Adam Smith in his book, The Theory of Moral Sentiments.',
+  },
+  {
+    type: 'socialism',
+    year: 1701,
+    title: 'Socialism event',
+    content: 'Testing',
+  },
 ]
 

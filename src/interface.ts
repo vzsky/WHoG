@@ -3,5 +3,12 @@ export interface IEvent {
   displayYear?: string,
   title: string,
   content: string,
-  type: string | string[],
+  type: string,
+}
+
+export interface ISystemOption {
+  type: string,
+  system: string,
+  bgSrc: string,
+  upperBandColor: string,
 }

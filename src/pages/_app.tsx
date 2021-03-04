@@ -5,10 +5,7 @@ import Head from 'next/head'
 import { ChakraProvider, extendTheme } from "@chakra-ui/react"
 
 const fonts = {
-  body:
-    "'Helvetica Neue', 'Segoe UI', 'Helvetica', Kanit, system-ui",
-  heading:
-    "'Helvetica Neue', 'Segoe UI', 'Helvetica', Kanit, system-ui",
+  body: "'Exo 2', sans-serif",
 }
 
 const theme = extendTheme({ fonts })

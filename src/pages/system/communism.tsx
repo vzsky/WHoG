@@ -1,11 +1,20 @@
-import { Text, Box } from '@chakra-ui/react'
+import Layout from '../../components/layout'
+import { ISystemOption } from '../../interface'
+import { Box, Image } from '@chakra-ui/react'
 
-const System = () => {
-  return (
-    <Box m={20}>
-      <Text fontSize="5xl">Communism</Text>
-    </Box>
-  )
+const options : ISystemOption = {
+  type: 'communism',
+  system: 'COMMUNISM',
+  bgSrc: '/assets/communismBg.jpg',
+  upperBandColor: 'red.500',
 }
 
-export default System
+const Page = () => (
+  <Layout options={options}>
+    <Box> 
+      <Image src="/assets/communism1.png"/>
+      <Image src="/assets/communism2.png"/>
+    </Box>
+  </Layout>
+)
+export default Page

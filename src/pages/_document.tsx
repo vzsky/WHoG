@@ -1,5 +1,4 @@
 import React from 'react'
-
 import Document, {
   Head,
   Html,
@@ -7,6 +6,8 @@ import Document, {
   NextScript,
   DocumentContext,
 } from 'next/document'
+import Footer from '../components/footer'
+import { ColorModeScript } from "@chakra-ui/react"
 
 class NextDocument extends Document {
   public static async getInitialProps(ctx: DocumentContext) {
@@ -20,6 +21,9 @@ class NextDocument extends Document {
       <Html lang="en">
         <Head>
           {/* <link rel="shortcut icon" href="/assets/favicon.png" /> */}
+          <link rel="preconnect" href="https://fonts.gstatic.com" /> 
+          <link href="https://fonts.googleapis.com/css2?family=Exo+2&display=swap" rel="stylesheet" />
+
           <meta name="theme-color" content="#ffffff" />
           <meta
             name="viewport"
@@ -29,8 +33,10 @@ class NextDocument extends Document {
           <meta property="og:type" content="website" />
         </Head>
         <body>
+          <ColorModeScript initialColorMode={'dark'} />
           <Main />
           <NextScript />
+          <Footer/>
         </body>
       </Html>
     )
