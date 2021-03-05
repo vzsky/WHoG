@@ -12,7 +12,7 @@ const Event = (event: any) => {
         </Box>
         <Box m={2} w="10px" h="10px" rounded="10px" bg="gray.500"/>
       </Flex>
-      <Box w="100%" m={5} p={5} bg={colors[event.type]} rounded={5}>
+      <Box w="100%" m={5} p={5} bg={colors[event.type].main} rounded={5}>
         <Text fontSize="3xl">{event.title}</Text>
         <Text fontSize="xl">{event.content}</Text>
       </Box>
@@ -35,10 +35,10 @@ const Timeline = () => {
         <Text fontSize="5xl">Timeline</Text>
         <Box>
           <Button m={2} bg="gray.500" color="gray.100" onClick={()=>{setFilter('')}}>All</Button>
-          <Button m={2} bg="red.500" color="red.100" onClick={()=>{setFilter('communism')}}>Communism</Button>
-          <Button m={2} bg="blue.500" color="blue.100" onClick={()=>{setFilter('liberalism')}}>Liberalism</Button>
-          <Button m={2} bg="green.500" color="green.100" onClick={()=>{setFilter('capitalism')}}>Capitalism</Button>
-          <Button m={2} bg="yellow.500" color="yellow.100" onClick={()=>{setFilter('socialism')}}>Socialism</Button>
+          {['communism', 'liberalism', 'capitalism', 'socialism'].map((system) => (
+            <Button m={2} bg={colors[system].shade} color={colors[system].tint} onClick={()=>{setFilter(system)}}>{system}</Button>
+          ))
+          }
         </Box>
       </Box>
       <Flex ml={20}>

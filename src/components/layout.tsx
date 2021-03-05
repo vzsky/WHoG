@@ -1,7 +1,8 @@
 import { Text, Box, Center } from '@chakra-ui/react'
+import { ReactPropTypes } from 'react'
 import { ISystemOption } from '../interface'
 
-const System = (props) => {
+const System = (props: any) => {
   const options = props.options as ISystemOption
   const background: React.CSSProperties = {
     backgroundImage: `url(${options.bgSrc})`,
@@ -20,7 +21,9 @@ const System = (props) => {
           <Center>
             <Text fontSize="5xl">{options.system}</Text>
           </Center>
-          {props.children}
+          <Box mt={50}>
+            {props.children}
+          </Box>
         </Box>
       </Box>
       <style global jsx>
