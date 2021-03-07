@@ -1,6 +1,6 @@
 import { Text, Box, Center } from '@chakra-ui/react'
-import { ReactPropTypes } from 'react'
 import { ISystemOption } from '../interface'
+import { colors } from '../constants/colors'
 
 const System = (props: any) => {
   const options = props.options as ISystemOption
@@ -16,10 +16,10 @@ const System = (props: any) => {
   return (
     <Box h="100%">
       <Box w="100%" h="100%" style={background}>
-        <Box w="100%" h="10" bg={options.upperBandColor}/>
+        <Box w="100%" h="10" bg={colors[options.type].shade}/>
         <Box m={20}>
           <Center>
-            <Text fontSize="5xl">{options.system}</Text>
+            <Text fontSize="4xl">{options.system}</Text>
           </Center>
           <Box mt={50}>
             {props.children}

@@ -1,12 +1,11 @@
 import Layout from '../../components/layout'
 import { ISystemOption } from '../../interface'
-import { Box, AspectRatio, Flex, Image, Text } from '@chakra-ui/react'
+import { Box, Flex, Image, Text } from '@chakra-ui/react'
 
 const options : ISystemOption = {
   type: 'communism',
   system: 'COMMUNISM',
   bgSrc: '/assets/communismBg.jpg',
-  upperBandColor: 'red.500',
 }
 
 const Page = () => (
@@ -17,7 +16,7 @@ const Page = () => (
           <Image src="/assets/communism1.png"/>
         </Box>
         <Flex w="60%" p="30" justifyContent="center">
-          <Box position="relative" top="20%">
+          <Box position="relative" top="30%" >
             <Text fontSize="3xl"> NO HIERACHY </Text>
             <Text fontSize="3xl"> NO MONEY </Text>
           </Box>

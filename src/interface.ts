@@ -3,12 +3,11 @@ export interface IEvent {
   displayYear?: string,
   title: string,
   content: string,
-  type: string,
+  type: 'communism' | 'socialism' | 'capitalism' | 'liberalism',
 }
 
 export interface ISystemOption {
   type: string,
   system: string,
   bgSrc: string,
-  upperBandColor: string,
 }

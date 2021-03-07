@@ -1,34 +1,23 @@
 import { IEvent } from '../interface'
 
-export const colors = {
-  communism: {
-    tint: '#F8D2C9',
-    main:'#D93F1C',
-    shade: '#902A13',
-  },
-  liberalism: {
-    tint: '#BDEDEF',
-    main: '#30C0C5',
-    shade: '#299FA3',
-  },
-  capitalism: {
-    tint: '#DCFE86',
-    main: '#83B602',
-    shade: '#577A01',
-  },
-  socialism: {
-    tint: '#FFEF85',
-    main:'#CCB100',
-    shade:'#8F7C00',
-  }
-}
-
 export const events : IEvent[] = [
   {
     type: 'communism',
     year: 1516,
     title: 'Utopia, Thomas More',
     content: 'A book that visualize a utopia as a land that has no classes and people share common property, which is also known as communistic thought.',
+  },
+  {
+    type: 'liberalism',
+    year: 1789,
+    title: 'French Revolution',
+    content: 'French people took down the monarchy and established democratic houses.'
+  },
+  {
+    type: 'communism',
+    year: 1848,
+    title: 'The Communist Manifesto, Karl Marx',
+    content: 'The Communist Manifesto was written to demonstrate the core idea and the movement of communism'
   },
   {
     type: 'communism',
@@ -62,22 +51,16 @@ export const events : IEvent[] = [
     content: 'Creation of steam engine and automatic systems that allows faster production.',
   },
   {
-    type: 'capitalism',
-    year: 1759,
-    title: 'Invisible hand',
-    content: 'The idea of invisible hand, and free market was proposed by the economist Adam Smith in his book, The Theory of Moral Sentiments.',
-  },
-  {
     type: 'liberalism',
     year: 1759,
     title: 'Invisible hand',
     content: 'The idea of invisible hand, and free market was proposed by the economist Adam Smith in his book, The Theory of Moral Sentiments.',
   },
   {
-    type: 'socialism',
-    year: 1701,
-    title: 'Socialism event',
-    content: 'Testing',
+    type: 'liberalism',
+    year: 2009,
+    title: 'Genesis of Bitcoin',
+    content: 'Bitcoin - A decentralized protocol for peer-to-peer monetary system that requires no trust.'
   },
 ]
 

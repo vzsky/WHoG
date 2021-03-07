@@ -1,6 +1,7 @@
 import { Box, Flex, Text, Button } from '@chakra-ui/react'
 import { useEffect, useState } from 'react'
-import { events, colors } from '../constants/timeline'
+import { events } from '../constants/timeline'
+import { colors } from '../constants/colors'
 import { IEvent } from '../interface'
 
 const Event = (event: any) => {
