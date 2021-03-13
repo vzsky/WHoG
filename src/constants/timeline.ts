@@ -20,25 +20,25 @@ export const events : IEvent[] = [
     content: 'The Communist Manifesto was written to demonstrate the core idea and the movement of communism'
   },
   {
-    type: 'communism',
+    type: 'socialism',
     year: 1917,
     title: 'Russian Revolution',
     content: 'Lenin rose to power and rule the USSR, the first communist party to reach this level.'
   },
   {
-    type: 'communism',
+    type: 'socialism',
     year: 1948,
     title: 'Devision of Korea',
     content: 'Korea split upon the 38th parallel into North Korea and South Korea. North Korea, by Kim Il Sung, is regulated under the communism idea.'
   },
   {
-    type: 'communism',
+    type: 'socialism',
     year: 1949,
     title: "People's Republic of China",
     content: "Mao Zedong founded People's Republic of China and became the leader of the communist state."
   },
   {
-    type: 'communism',
+    type: 'socialism',
     year: 1991,
     title: 'Russian Dissolution',
     content: 'Russian Communist party lose their power.'
@@ -51,7 +51,7 @@ export const events : IEvent[] = [
     content: 'Creation of steam engine and automatic systems that allows faster production.',
   },
   {
-    type: 'liberalism',
+    type: 'capitalism',
     year: 1759,
     title: 'Invisible hand',
     content: 'The idea of invisible hand, and free market was proposed by the economist Adam Smith in his book, The Theory of Moral Sentiments.',

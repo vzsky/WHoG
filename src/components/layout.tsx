@@ -2,7 +2,16 @@ import { Text, Box, Center } from '@chakra-ui/react'
 import { ISystemOption } from '../interface'
 import { colors } from '../constants/colors'
 
-const System = (props: any) => {
+const TextBox = (props: any) => (
+  <Box my={20}>
+    <Text fontSize="3xl"> {props.title} </Text>
+    <Text mt={5} fontSize="xl" px={10} textAlign="justify">
+      {props.text}
+    </Text>
+  </Box>
+)
+
+const Layout = (props: any) => {
   const options = props.options as ISystemOption
   const background: React.CSSProperties = {
     backgroundImage: `url(${options.bgSrc})`,
@@ -41,4 +50,4 @@ const System = (props: any) => {
   )
 }
 
-export default System
+export { Layout, TextBox }
