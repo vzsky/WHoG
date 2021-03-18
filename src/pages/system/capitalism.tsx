@@ -5,7 +5,7 @@ import { Box, Flex, Image, Text } from '@chakra-ui/react'
 const options : ISystemOption = {
   type: 'capitalism',
   system: 'CAPITALISM',
-  bgSrc: '',
+  bgSrc: '/assets/capitalismBg.jpg',
 }
 
 const textDefinition = "Capitalism is the belief regarding economic organization..."
@@ -19,7 +19,7 @@ const Page = () => (
         </Box>
         <Flex w="60%" p="30" justifyContent="center">
           <Box position="relative" top="30%" >
-            <Text fontSize="3xl"> HEADLINE </Text>
+            <Text fontSize="3xl"> MONEY DRIVES </Text>
           </Box>
         </Flex>
       </Flex>

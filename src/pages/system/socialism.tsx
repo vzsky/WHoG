@@ -5,7 +5,7 @@ import { Box, Flex, Image, Text } from '@chakra-ui/react'
 const options : ISystemOption = {
   type: 'socialism',
   system: 'SOCIALISM',
-  bgSrc: '',
+  bgSrc: '/assets/socialismBg.jpg',
 }
 
 const textDefinition = "Socialism is the ideology that .... "
