@@ -31,9 +31,8 @@ const Timeline = () => {
   },[filter])
 
   return (
-    <Box m={20}>
+    <Box>
       <Box w="100%">
-        <Text fontSize="5xl">Timeline</Text>
         <Box>
           <Button m={2} bg="gray.500" color="gray.100" onClick={()=>{setFilter('')}}>All</Button>
           {['communism', 'liberalism', 'capitalism', 'socialism'].map((system) => (

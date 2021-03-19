@@ -9,7 +9,6 @@ const options : ISystemOption = {
 }
 
 const textDefinition = "Socialism is the ideology that .... "
-const textHistory = "Socialism and Communism is closely related. ..."
 
 const Page = () => (
   <Layout options={options}>
@@ -25,7 +24,6 @@ const Page = () => (
         </Flex>
       </Flex>
       <TextBox title="WHAT IS SOCIALISM?" text={textDefinition}/>
-      <TextBox title="HISTORY" text={textHistory}/>
       <Flex justifyContent="center">
         <Image src="/assets/communism2.png" objectFit="contain"/>
       </Flex>

@@ -9,7 +9,6 @@ const options : ISystemOption = {
 }
 
 const textDefinition = "Communism, political and economic doctrine that aims to replace private property and a profit-based economy with public ownership and communal control of at least the major means of production (e.g., mines, mills, and factories) and the natural resources of a society. Communism is thus a form of socialism—a higher and more advanced form, according to its advocates. Exactly how communism differs from socialism has long been a matter of debate, but the distinction rests largely on the communists’ adherence to the revolutionary socialism of Karl Marx."
-const textHistory = "Communism was firstly proposed by Karl Marx in .... "
 
 const Page = () => (
   <Layout options={options}>
@@ -26,7 +25,6 @@ const Page = () => (
         </Flex>
       </Flex>
       <TextBox title="WHAT IS COMMUNISM?" text={textDefinition}/>
-      <TextBox title="HISTORY" text={textHistory}/>
       <Flex justifyContent="center">
         <Image src="/assets/communism2.png" objectFit="contain"/>
       </Flex>
