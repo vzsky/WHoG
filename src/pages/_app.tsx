@@ -5,7 +5,7 @@ import Head from 'next/head'
 import { ChakraProvider, extendTheme } from "@chakra-ui/react"
 
 const fonts = {
-  body: "'Exo 2', sans-serif",
+  body: "'Playfair Display', serif",
 }
 
 const theme = extendTheme({ fonts })
@@ -17,7 +17,7 @@ export default class CustomApp extends App {
     return (
       <ChakraProvider theme={theme}>
         <Head>
-          <title>Touch Sungkawichai</title>
+          <title>World History Of Governing</title>
         </Head>
         <Component {...pageProps} />
       </ChakraProvider>

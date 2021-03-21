@@ -31,7 +31,7 @@ const Timeline = () => {
   },[filter])
 
   return (
-    <Box bg="gray.700">
+    <Box px={20} py={10}>
       <Box w="100%" mt={10}>
         <Box>
           <Button m={2} rounded={0} bg="gray.500" color="gray.100" onClick={()=>{setFilter('')}}>All</Button>

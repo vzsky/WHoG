@@ -11,3 +11,9 @@ export interface ISystemOption {
   system: string,
   bgSrc: string,
 }
+
+export interface IReference {
+  author: string,
+  url: string,
+  topic: string,
+}
