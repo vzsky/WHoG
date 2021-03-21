@@ -14,7 +14,7 @@ const textDisclaimer2 = "We hereby say that our work is not a clear reference to
 
 
 const NewBox = (props) => (
-  <Box px={20} py={20} bg={props.bg}>
+  <Box px={props.px?props.px:20} py={props.py?props.py:20} bg={props.bg}>
     {props.children}
   </Box>
 )
@@ -43,7 +43,7 @@ const Page = () => {
         </Flex>
       </NewBox>
 
-      <NewBox bg="bg.700">
+      <NewBox py={10} bg="bg.700">
         <Center>
           <Text fontSize="4xl"> What Are They?</Text>
         </Center>
@@ -52,7 +52,24 @@ const Page = () => {
         </Center>
         <Center>
         <Box>
-            {['communism', 'liberalism', 'capitalism', 'socialism'].map((system) => (
+            {[
+              { name: 'communism',
+                headline: 'No Money, No Class',
+                pic: 'communismLink.png'
+              },
+              { name: 'liberalism',
+                headline: 'Liberty, Human Rights',
+                pic: 'liberalismLink.png'
+              },
+              { name: 'capitalism',
+                headline: 'Money, Competitive',
+                pic: 'capitalismLink.png'
+              },
+              { name: 'socialism',
+                headline: 'Society, People',
+                pic: 'socialismLink.png'
+              }]
+            .map((system) => (
               <Link 
                 href={`/system/${system}`}
                 style={{textDecoration: 'none'}}
@@ -62,14 +79,31 @@ const Page = () => {
                   m={5} 
                   py={150}
                   px={30}
-                  bg={colors[system].shade} 
-                  color={colors[system].tint}
+                  w={220}
+                  bg={colors[system.name].shade} 
+                  color={colors[system.name].tint}
                   _hover={{
-                    background: colors[system].main,
+                    background: colors[system.name].main,
                     color: "black",
                   }}
                 >
-                  {system}
+                  <Box>
+                    <Center>
+                      <Text>
+                        {system.headline}
+                      </Text>
+                    </Center>
+                    <Center>
+                      <Image py={5} h={200} src={`/assets/${system.pic}`} />
+                    </Center>
+                    <Center>
+                      <Box w={150} rounded={5} border="1px" borderColor="gray.100">
+                        <Text py={2}>
+                          {system.name}
+                        </Text>
+                      </Box>
+                    </Center>
+                  </Box>
                 </Button>
               </Link>
             ))
