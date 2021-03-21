@@ -17,27 +17,27 @@ export const events : IEvent[] = [
     type: 'communism',
     year: 1948,
     title: 'Devision of Korea',
-    content: 'Korea split upon the 38th parallel into North Korea and South Korea. North Korea, by Kim Il Sung, is regulated under the communism idea.'
+    content: 'Korea split upon the 38th parallel into North Korea and South Korea. North Korea, by Kim Il Sung, is regulated under the communist idea.'
   },
   {
     type: 'communism',
     year: 1949,
     title: "People's Republic of China",
-    content: "Mao Zedong founded People's Republic of China and became the leader of the communists state."
+    content: "Mao Zedong founded the People's Republic of China and became the leader of the communists state."
   },
   {
     type: 'socialism',
     year: 1980,
     displayYear: '1980s',
     title: 'Socialist Parties',
-    content: 'Socialist parties are formed around the world in this era. This include socialist parties of USA, France, UK, Thailand, and other countries.'
+    content: 'Socialist parties are formed around the world in this era. This includes socialist parties of the USA, France, UK, Thailand, and other countries.'
   },
   {
     type: 'socialism',
     year: 1950,
     displayYear: '19XX',
     title: 'Social Democracy',
-    content: 'Socialism get applied with democracy as opposed to authoritarian. Socialists rebranded socialism as argued that socialism also works well in democratic society.'
+    content: 'Socialism gets applied with democracy as opposed to authoritarianism. Socialists rebranded socialism as argued that socialism also works well in a democratic society.'
   },
   {
     type: 'liberalism',
@@ -68,7 +68,7 @@ export const events : IEvent[] = [
     type: 'liberalism',
     year: 1948,
     title: 'Universal Declaration of Human Rights',
-    content: 'The concept of inalienable rights, justice, and freedom of all human is officially declared and adpoted by many countries. This is followed by others international treaties.'  
+    content: 'The concept of inalienable rights, justice, and freedom of all humans is officially declared and adopted by many countries. This is followed by other international treaties.'  
   },
   {
     type: 'socialism',

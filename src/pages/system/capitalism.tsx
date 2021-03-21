@@ -8,8 +8,8 @@ const options : ISystemOption = {
   bgSrc: '/assets/capitalismBg.jpg',
 }
 
-const textDefinition = "Capitalism is the belief that the market can run smoothly without any intervention. Capitalists supports free market, since they believed in the 'invisible hands'. Each individual in the market will help make the price stable. Each person can own private property and have full rights to trade them with any other individual. The production runs with owners' decision in competing for profits from another individuals."
-const textHistory = "Capitalism and liberalism shares common history. They both based on a belief that individual should have power and rights to control their private property. With price system, economists say that price will adapt to the true value without any intervention from government. Free markets will let companies compete for profits and will leave the best thing for society."
+const textDefinition = "Capitalism is the belief that the market can run smoothly without any intervention. Capitalists support the free market since they believed in the 'invisible hands'. Each individual in the market will help make the price stable. Each person can own private property and have full rights to trade them with any other individual. The production runs with owners' decision in competing for profits from other individuals."
+const textHistory = "Capitalism and liberalism share a common history. They are both based on a belief that individuals should have the power and rights to control their private property. With the price system, economists say that price will adapt to the true value without any intervention from the government. Free markets will let companies compete for profits and will leave the best thing for society."
 
 const Page = () => (
   <Layout options={options}>

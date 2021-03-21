@@ -8,8 +8,8 @@ const options : ISystemOption = {
   bgSrc: '/assets/liberalismBg.jpg',
 }
 
-const textDefinition = "Liberalism is the belief that all human have basic rights in many aspects. Liberalists believe in equality, so they usually adopt democracy. Liberalist values individual rights and freedom, and usually limit government intervention in broad aspects. liberalism usually comes with capitalism economics system."
-const textHistory = "During the enlightenment era, philosophers had spend time in questioning the authority and monarchy. Liberalism is created to replace monarchy, hierachical privilleges, and controlled economics with democracy and free market. The rising of Protestant also led to questioning the devine rights. Liberalism also sought to seperate religion from government. The idea of liberalism got more popular among philosophers and movements were based on them."
+const textDefinition = "Liberalism is the belief that all humans have basic rights in many aspects. Liberalists believe in equality, so they usually adopt democracy. Liberalism values individual rights and freedom and usually limits government intervention in broad aspects. liberalism usually comes with a capitalist economic system."
+const textHistory = "During the enlightenment era, philosophers had spent time questioning authority and monarchy. Liberalism is created to replace monarchy, hierarchical privileges, and controlled economics with democracy and the free market. The rising of Protestants also led to questioning the divine rights. Liberalism also sought to separate religion from government. The idea of liberalism got more popular among philosophers and movements were based on them."
 
 const Page = () => (
   <Layout options={options}>
