@@ -18,13 +18,13 @@ const textDisclaimer1 = "No actual rigid boundary are defined to seperate each i
 const textDisclaimer2 = "We hereby say that our work is not a clear cut to define the effect of each ideology. In fact, many events are legacy of multiple ideas. However, we present this basically to make distinction between them. This is based totally on our understanding toward each event and the intention behind each one of them."
 
 const Page = () => (
-  <Box p={20} pt={10}>
-    <Box pt={20}>
+  <Box py={20} pt={10}>
+    <Box px={20} pt={20}>
       <Text fontSize="2xl">{Title}</Text>
       <Text fontSize="6xl">{subTitle}</Text>
     </Box>
 
-    <Box pt={10}>
+    <Box px={20} py={10}>
       <Flex>
         <Box w="45%">
           <Image src="/assets/index1.jpg"/>
@@ -36,7 +36,7 @@ const Page = () => (
       </Flex>
     </Box>
 
-    <Box pt={10}>
+    <Box px={20} py={10} bg="gray.700">
       <Center>
         <Text fontSize="4xl"> What Are They?</Text>
       </Center>
@@ -69,7 +69,7 @@ const Page = () => (
       </Center>
     </Box>
     
-    <Box pt={10}>
+    <Box px={20} py={10}>
       <Flex>
         <Box w="45%">
           <Text fontSize="5xl">Do They</Text>
@@ -83,13 +83,13 @@ const Page = () => (
       <Timeline />
     </Box>
 
-    <Box pt={10}>
+    <Box px={20} py={10}>
       <Text fontSize="4xl">Difficulties and Disclaimer</Text>
       <Text fontSize="xl" mt={15}>{textDisclaimer1}</Text>
       <Text fontSize="xl" mt={15}>{textDisclaimer2}</Text>
     </Box>
 
-    <Box pt={10}>
+    <Box px={20} py={10}>
       <Text fontSize="4xl">References</Text>
       <Box>
         {

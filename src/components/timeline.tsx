@@ -13,7 +13,7 @@ const Event = (event: any) => {
         </Box>
         <Box m={2} w="10px" h="10px" bg="gray.500"/>
       </Flex>
-      <Box w="100%" m={5} p={5} bg={colors[event.type].main} rounded={5}>
+      <Box w="100%" m={5} p={5} bg={colors[event.type].shade}>
         <Text fontSize="3xl">{event.title}</Text>
         <Text fontSize="xl">{event.content}</Text>
       </Box>
@@ -31,7 +31,7 @@ const Timeline = () => {
   },[filter])
 
   return (
-    <Box>
+    <Box bg="gray.700">
       <Box w="100%" mt={10}>
         <Box>
           <Button m={2} rounded={0} bg="gray.500" color="gray.100" onClick={()=>{setFilter('')}}>All</Button>
