@@ -71,12 +71,62 @@ export const references : IReference[] = [
   {
     author: 'Anonymous',
     topic: 'A Brief History of the Stock Market',
-    url: 'https://www.sofi.com/learn/content/history-of-the-stock-market/?__cf_chl_jschl_tk__=2987b36f634b1bbbf1547236410870f24f6a7837-1616348658-0-ATuQt1w0JmCLquLsr3x5aNmUHkL4wtdJupw4OToJv6uDDqqZtiII0K5jS7GOzQcRlg0y6DxUiFKokJIw1y0OysjEw6DbHwgpmZcMesCkhqnRYvEyb15sjBpWO6FkxVNc93ny7Mt2hTpdGgFvAw9m_CuuGGTQWN6945xCgXCLhOrlNfJ8ncEucn1NixhA5W_nFCHp2S-vXCfdj2hvuFaZKw___22bxvh3p_etrctJPsypeAu2lo2NSupE90pbE1OobkeOfLgsWSO5lQ2NS7qzXWuLJU9npZs_LD-223g2yJcql4azPTDoKCNQ7PBs8da_W56NVl8aUTKFIgjVixap8XMNC00Ki1_FygCGOGvoJNsTXms-pQCsj0P8Wbp0itAHJQgFPG1rP7dDzpihkabjGlPD3sLcvQwEIOQL-9Xl8W11QlPRHppRGBYvX_CQVY42Gg'
+    url: 'https://www.sofi.com/learn/content/history-of-the-stock-market/'
   },
   {
-    author: 'The Editor of Britannica',
+    author: 'The editors of Britannica',
     topic: 'Industrial Revolution',
     url: 'https://www.britannica.com/event/Industrial-Revolution'
-  }
+  },
+  {
+    author: 'Anonymous',
+    topic: '13th Amendment to the U.S. Constitution: Abolition of Slavery',
+    url: 'https://www.archives.gov/historical-docs/13th-amendment'
+  },
+  {
+    author: 'Anonymous',
+    topic: 'The Pension Timeline',
+    url: 'https://www.portafina.co.uk/the-pension-timeline/'
+  },
+  {
+    author: 'Socialists and Democrats',
+    topic: 'What do we owe to social democracy?',
+    url: 'https://www.youtube.com/watch?v=5IXWzbNeRg8',
+  },
+  {
+    author: 'History.com Editors',
+    topic: 'Russian Revolution',
+    url: 'https://www.history.com/topics/russia/russian-revolution',
+  },
+  {
+    author: 'Sarah Pruitt',
+    topic: 'Why Are North and South Korea Divided?',
+    url: 'https://www.history.com/news/north-south-korea-divided-reasons-facts',
+  },
+  {
+    author: 'Anonymous',
+    topic: 'Universal Declaration of Human Rights',
+    url: 'https://www.un.org/en/about-us/universal-declaration-of-human-rights',
+  },
+  {
+    author: 'Anonymous',
+    topic: 'Establishment of the People’s Republic',
+    url: 'https://www.britannica.com/place/China/Establishment-of-the-Peoples-Republic',
+  },
+  {
+    author: 'History.com Editors',
+    topic: 'French Revolution',
+    url: 'https://www.history.com/topics/france/french-revolution',
+  },
+  {
+    author: 'The editors of Britannica',
+    topic: 'Social Democracy',
+    url: 'https://www.britannica.com/topic/social-democracy',
+  },
+  {
+    author: 'Anonymous (wikipedia)',
+    topic: 'Socialist Party',
+    url: 'https://en.wikipedia.org/wiki/Socialist_Party',
+  },
 ]
 

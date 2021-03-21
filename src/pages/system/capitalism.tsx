@@ -16,7 +16,7 @@ const Page = () => (
     <Box> 
       <Flex>
         <Box w="40%">
-          <Image src="/assets/communism1.png"/>
+          <Image src="/assets/capitalism1.jpg"/>
         </Box>
         <Flex w="60%" p="30" justifyContent="center">
           <Box position="relative" top="30%" >
@@ -27,7 +27,7 @@ const Page = () => (
       <TextBox title="WHAT IS CAPITALISM?" text={textDefinition}/>
       <TextBox title="HISTORY" text={textHistory}/>
       <Flex justifyContent="center">
-        <Image src="/assets/communism2.png" objectFit="contain"/>
+        <Image src="/assets/capitalism2.png" objectFit="contain"/>
       </Flex>
     </Box>
   </Layout>

@@ -69,6 +69,12 @@ export const events : IEvent[] = [
     year: 1948,
     title: 'Universal Declaration of Human Rights',
     content: 'The concept of inalienable rights, justice, and freedom of all human is officially declared and adpoted by many countries. This is followed by others international treaties.'  
+  },
+  {
+    type: 'socialism',
+    year: 1908,
+    title: 'The Old Age Pensions Act',
+    content: 'The Pensions Act introduced a pension for people older than 70.'
   }
 ]
 

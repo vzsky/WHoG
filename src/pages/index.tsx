@@ -34,7 +34,7 @@ const Page = () => {
       <NewBox>
         <Flex>
           <Box w="45%">
-            <Image src="/assets/index1.jpg"/>
+            <Image src="/assets/index2.jpg"/>
           </Box>
           <Box w="45%" ml="5%">
             <Text fontSize="4xl">Why Should You Care?</Text>
