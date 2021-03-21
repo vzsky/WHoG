@@ -20,7 +20,8 @@ const Page = () => (
         </Box>
         <Flex w="60%" p="30" justifyContent="center">
           <Box position="relative" top="30%" >
-            <Text fontSize="3xl"> HEADLINE </Text>
+            <Text fontSize="3xl"> SOCIETY</Text>
+            <Text fontSize="3xl"> PEOPLE </Text>
           </Box>
         </Flex>
       </Flex>

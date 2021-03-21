@@ -26,12 +26,12 @@ const Page = () => {
   <Box>
     <Header/>
     <Box>
-      <NewBox bg="gray.700">
+      <NewBox>
         <Text fontSize="2xl">{Title}</Text>
         <Text fontSize="6xl">{subTitle}</Text>
       </NewBox>
 
-      <NewBox>
+      <NewBox bg="gray.700">
         <Flex>
           <Box w="45%">
             <Image src="/assets/index2.jpg"/>
@@ -47,7 +47,9 @@ const Page = () => {
         <Center>
           <Text fontSize="4xl"> What Are They?</Text>
         </Center>
-        {/* <Text fontSize="xl"> Click to learn what is each ideology and how did it originate </Text> */}
+        <Center>
+          <Text fontSize="lg"> Click to learn what is each ideology and how did it originate </Text>
+        </Center>
         <Center>
         <Box>
             {['communism', 'liberalism', 'capitalism', 'socialism'].map((system) => (
