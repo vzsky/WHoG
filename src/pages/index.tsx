@@ -2,6 +2,7 @@ import React from 'react'
 import { Box, Link, Button, Text, Flex, Image, Center } from '@chakra-ui/react'
 import Timeline from '../components/timeline'
 import Header from '../components/header'
+import Footer from '../components/footer'
 import { colors } from '../constants/colors'
 import { references } from '../constants/references'
 
@@ -146,6 +147,7 @@ const Page = () => {
         </Box>
       </NewBox>
     </Box>
+    <Footer/>
   </Box>
 )}
 
