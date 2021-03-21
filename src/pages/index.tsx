@@ -139,8 +139,8 @@ const Page = () => {
         <Box pt={15}>
           {
             references.map(ref => 
-              <Text fontSize="xl"> {ref.author} . {ref.topic} .
-                <a href={ref.url?ref.url:'#'}>{ref.url}</a> 
+              <Text fontSize="xl"> {ref.author} | {ref.topic} |  
+                <a href={ref.url?ref.url:'#'}> {ref.url}</a> 
               </Text>
             )
           }
