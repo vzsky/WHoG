@@ -11,7 +11,7 @@ const Event = (event: any) => {
         <Box w={20}>
           <Text> {event.displayYear?event.displayYear:event.year} </Text>
         </Box>
-        <Box m={2} w="10px" h="10px" rounded="10px" bg="gray.500"/>
+        <Box m={2} w="10px" h="10px" bg="gray.500"/>
       </Flex>
       <Box w="100%" m={5} p={5} bg={colors[event.type].main} rounded={5}>
         <Text fontSize="3xl">{event.title}</Text>
@@ -32,11 +32,11 @@ const Timeline = () => {
 
   return (
     <Box>
-      <Box w="100%">
+      <Box w="100%" mt={10}>
         <Box>
-          <Button m={2} bg="gray.500" color="gray.100" onClick={()=>{setFilter('')}}>All</Button>
+          <Button m={2} rounded={0} bg="gray.500" color="gray.100" onClick={()=>{setFilter('')}}>All</Button>
           {['communism', 'liberalism', 'capitalism', 'socialism'].map((system) => (
-            <Button m={2} bg={colors[system].shade} color={colors[system].tint} onClick={()=>{setFilter(system)}}>{system}</Button>
+            <Button m={2} rounded={0} bg={colors[system].shade} color={colors[system].tint} onClick={()=>{setFilter(system)}}>{system}</Button>
           ))
           }
         </Box>
