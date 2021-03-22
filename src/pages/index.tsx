@@ -72,7 +72,7 @@ const Page = () => {
               }]
             .map((system) => (
               <Link 
-                href={`/system/${system}`}
+                href={`/system/${system.name}`}
                 style={{textDecoration: 'none'}}
               >
                 <Button 
